@@ -1,0 +1,34 @@
+/* Example styles */
+.Layout-main {
+  background-color: var(--neutralLighterAlt);
+  color: var(--neutralPrimary);
+}
+
+.Layout-toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--neutralLighterAlt);
+}
+
+/* Custom styles for the navbar */
+.navbar-custom {
+    background-color: #007bff;
+  }
+  
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .nav-item {
+  color: #ffffff !important;
+}
+
+.navbar-custom .nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px 0;
+}
+  

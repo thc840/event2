@@ -1,0 +1,40 @@
+body {
+  background-color: #FFFFFF; /* White background */
+  color: #000000; /* Black for primary text */
+  font-family: 'Noto Sans', Roboto, Arial, sans-serif;
+}
+
+.nav-item {
+  color: #000000; /* Default color for nav items */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for shadows */
+  padding: 8px 12px; /* Reduced padding for less bulkiness */
+  margin: 4px 0; /* Even margin for vertical spacing */
+}
+
+.nav-item:hover {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+.nav-item .fa-icon {
+  color: #000000; /* Default icon color */
+}
+
+.nav-item:hover .fa-icon {
+  color: #FFFAF0 !important; /* Floral White on hover for icons */
+}
+
+.nav-item .MuiListItemText-root {
+  color: inherit; /* Inherit text color from parent */
+}
+
+.nav-item:hover .MuiListItemText-root {
+  color: #FFFAF0 !important; /* Floral White on hover for text */
+}
+
+.logout:hover .fa-icon {
+  color: #FFFAF0 !important; /* Floral White on hover for logout icon */
+}
+
+.logout:hover .MuiListItemText-root {
+  color: #FFFAF0 !important; /* Floral White on hover for logout text */
+}
